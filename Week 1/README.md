@@ -17,7 +17,7 @@ By default `samples` is set to 64, in which case $4\times64=256$ ray samples wil
 
 ![F# implementation output](https://github.com/LeonKang130/DotNetPathTracer/blob/week1-progress/Week%201/sample%20-%20fsharp.png)
 
-In addition to implementing smallpt using these two .NET languages, we used [BenchmarkDotNet](https://benchmarkdotnet.org/) to measure the performance of our implementation. Here we focused on the `radiance` function which evaluates the radiance collected along a particular ray (position and direction) and the `renderRow` function which invokes the `radiance` function to evaluate the pixel color for a single row in the final image. We performed our benchmarking on a Laptop, measuring the time consumed and memory allocated with specific row index `y` and samples count `samples` provided to the application. Here are the plots of our benchmarking results:
+In addition to implementing smallpt using these two .NET languages, we used [BenchmarkDotNet](https://benchmarkdotnet.org/) to measure the performance of our implementation. Here we focused on the `radiance` function which evaluates the radiance collected along a particular ray (position and direction) and the `renderRow` function which invokes the `radiance` function to evaluate the pixel color for a single row in the final image. We performed our benchmarking on a Laptop(i7-9750H 6 cores), measuring the time consumed and memory allocated with specific row index `y` and samples count `samples` provided to the application. Here are the plots of our benchmarking results:
 
 ![RenderRow 192](https://github.com/LeonKang130/DotNetPathTracer/blob/week1-progress/Week%201/benchmark%20result%20-%20renderRow%20192.png)
 
