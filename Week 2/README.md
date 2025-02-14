@@ -17,3 +17,4 @@ In addition to what we have achieved in the first week, we added the following f
 
 Here is a sample output from our renderer:
 
+![Sample Depth-of-Field](https://github.com/LeonKang130/DotNetPathTracer/blob/main/Week%202/sample.png)
