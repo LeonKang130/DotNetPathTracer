@@ -8,3 +8,9 @@ Modified implementation of smallpt in C# and F#:
 
 -   [smallpt-csharp](https://github.com/LeonKang130/smallpt-csharp)
 -   [smallpt-fsharp](https://github.com/LeonKang130/smallpt-fsharp)
+
+## Week 2
+
+A rendering framework based on [LuisaRender](https://github.com/LuisaGroup/LuisaRender) and [pbrt-v3](https://github.com/mmp/pbrt-v3) written in F#:
+
+-   [Barnacle](https://github.com/LeonKang130/Barnacle)
