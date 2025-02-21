@@ -14,3 +14,7 @@ Modified implementation of smallpt in C# and F#:
 A rendering framework based on [LuisaRender](https://github.com/LuisaGroup/LuisaRender) and [pbrt-v3](https://github.com/mmp/pbrt-v3) written in F#:
 
 -   [Barnacle](https://github.com/LeonKang130/Barnacle)
+
+## Week 3
+
+Added implementation of Primary Sample Space Metropolis Light Transport as `PSSMLTIntegrator` in [Barnacle](https://github.com/LeonKang130/Barnacle).
