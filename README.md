@@ -18,3 +18,7 @@ A rendering framework based on [LuisaRender](https://github.com/LuisaGroup/Luisa
 ## Week 3
 
 Added implementation of Primary Sample Space Metropolis Light Transport as `PSSMLTIntegrator` in [Barnacle](https://github.com/LeonKang130/Barnacle).
+
+## Week 4
+
+Added implementation of PBR workflow material following the glTF 2.0 specification in [Barnacle](https://github.com/LeonKang130/Barnacle).
